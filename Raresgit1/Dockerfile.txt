@@ -1,0 +1,7 @@
+FROM node
+RUN mkdir /tmp/app Project6
+CMD npm install express 
+WORKDIR /tmp/app
+COPY server.js .
+CMD node server.js
+EXPOSE 3000
