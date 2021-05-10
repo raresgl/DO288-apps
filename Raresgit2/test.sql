@@ -41,4 +41,3 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 -- Dump completed on 2020-02-11 4:21:33
-Expose the node app service and check if you cann see your mysql table from there.
