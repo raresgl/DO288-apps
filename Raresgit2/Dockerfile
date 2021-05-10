@@ -1,9 +1,7 @@
-FROM mysql
-RUN mkdir /tmp/app
-WORKDIR /tmp/app
+FROM mysql:latest
 ENV MYSQL_USER='rares'
 ENV MYSQL_PASSWORD='rares'
 ENV MYSQL_DATABASE='day7'
-ENV MYSQL_SERVICE_HOST='raress'
-COPY test.sql .
-EXPOSE 3000
+ENV MYSQL_SERVICE_HOST='rares'
+
+
