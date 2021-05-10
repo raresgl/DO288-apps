@@ -1,5 +1,5 @@
 FROM node
-
+WORKDIR /etc
 RUN npm install express 
 RUN npm install mysql
 COPY server.js /etc
