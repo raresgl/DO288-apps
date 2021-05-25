@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('1') {
+            steps {
+                sh 'sudo -s systemctl start httpd'
+            }
+        }
+        stage('2') {
+            steps {
+                sh 'echo Webserver > /var/www/html/index.html'
+            }
+        }
+    }
+}
